@@ -19,7 +19,7 @@ function onKeyDown(event) {
   if (
     /\d/.test(event.key) ||
     event.key === "Backspace" ||
-    event.key.contains("Arrow")
+    event.key.includes("Arrow")
   ) {
     return true;
   } else {

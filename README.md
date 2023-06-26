@@ -12,6 +12,6 @@ Running the Question 2 needs to be an E2E test, so I used Cypresss but only runs
 
 - npm install
 
-- npm run start
+- npm run start (should be running in http://localhost:1234/)
 
 - npm run cypress:run
